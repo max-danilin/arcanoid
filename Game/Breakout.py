@@ -7,8 +7,9 @@ from Game.Level import Level
 from Game.Pad import Pad
 from typing import Tuple, List
 
+
 class Breakout:
-    '''Class, creating an instance of a breakout game.'''
+    """Class, creating an instance of a breakout game."""
 
     def __init__(self):
         """
@@ -121,6 +122,7 @@ class Breakout:
         self.__lives = 5
         self.__score = 0
         self.__level.load(0)
+
 
 game = Breakout()
 game.start()
